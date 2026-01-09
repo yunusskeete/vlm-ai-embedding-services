@@ -1,0 +1,10 @@
+--index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://pypi.org/simple # Fallback
+
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+torchcodec==0.1
+xformers
+git+https://github.com/3D-Intelligence/eng-3d-python-utils.git@main#egg=python_utils[images]
+git+https://github.com/facebookresearch/perception_models.git@main
